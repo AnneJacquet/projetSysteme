@@ -1,4 +1,5 @@
-# chat_server.py
+#!/usr/bin/env python
+# coding=utf-8
 
 import sys
 import socket
@@ -65,7 +66,6 @@ def drive_server():
                     continue
 
     server_socket.close()  # broadcast chat messages to all connected clients
-
 
 
 # def broadcast(server_socket, sock, message):
